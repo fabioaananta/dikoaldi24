@@ -1,0 +1,32 @@
+div{
+	background-color:lightblue;
+	border:10px solid navy;
+	padding:25px;
+	///padding:10px;
+	margin:25px;
+	text-align:center
+}
+img{
+	width: 300px;
+	height: 200px;
+	border: 4px solid navy;
+	padding: 5px;
+	margin: 20px;
+	
+}
+div{
+	width:1220px;
+	margin:30px auto;
+	padding:10px;
+	border:2px solid black;
+}
+h2{
+	
+	color: red;
+}
+hh{
+	color: blue;
+}
+dn{
+	color: green;
+}

@@ -1,0 +1,45 @@
+<html>
+    <head>
+       <!-- <script src="JQ.js"></script>
+        <script src="//ajax.googleapis.com/ajax/lins/jquery/3.3.1/jquery.min.js"></script>-->
+        <script src="JQ.js"></script>
+        <!--<script>
+        
+            $(document).ready(function(){
+               $("input").focus(function(){  
+                   $(this).css("background-color","#cccccc");
+            })
+            $("input").blur(function(){ 
+                $(this).css("background-color","#ffffff");
+            })
+
+             
+                $("p").click(function(){
+                    $(this).hide();
+                });
+            });
+             </Script>-->
+            <Script>
+             $(document).ready(function(){
+               $("button").click(function(){
+                $("div").animate({left: '1850px'},"slow");
+               
+             });
+                 });
+
+     </Script>
+       </head>
+        <body>
+           <!-- Name: <input type="text"name="fullname"><br>
+            email:<input type="text"name="email">-->
+
+            <button>start animation</button>
+            <p>by default,all HTML elements have a static position, and cannot be moved.
+                to manipulate the position, remember to first set the CSS position property
+                of the element to relative,fixed, or absoulute!</p>
+                <div style="background:#98bf21;height: 100px;width: 100px;position:absoulute;"></div>
+        </body>
+</html>
+<!--<p>if you click on me, i will disappear.</p>
+<p>click me away!</p>
+<p>click me too!</p>-->
